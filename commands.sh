@@ -16,4 +16,3 @@ az network vnet list
 az network vnet --vnet-name pocVnet01 subnet list
 az network vnet subnet list --vnet-name pocVnet01
 az network vnet subnet list -g pocResGroup --vnet-name pocVnet01
-

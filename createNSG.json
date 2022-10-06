@@ -1,11 +1,11 @@
 {
   "type": "Microsoft.Network/networkSecurityGroups/securityRules",
   "apiVersion": "2022-01-01",
-  "name": "string",
+  "name": "pocSubnet02SG",
   "properties": {
-    "access": "string",
-    "description": "string",
-    "destinationAddressPrefix": "string",
+    "access": "allow",
+    "description": "allow Internet",
+    "destinationAddressPrefix": "internet",
     "destinationAddressPrefixes": [ "string" ],
     "destinationApplicationSecurityGroups": [
       {
